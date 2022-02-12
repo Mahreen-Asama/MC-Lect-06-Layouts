@@ -306,5 +306,22 @@
         app:layout_constraintStart_toEndOf="@+id/button24"
         app:layout_constraintTop_toBottomOf="@+id/button24" />
 
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="@+id/button28"
+        app:layout_constraintTop_toTopOf="@+id/button28"
+        tools:layout_editor_absoluteX="130dp" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="226dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
