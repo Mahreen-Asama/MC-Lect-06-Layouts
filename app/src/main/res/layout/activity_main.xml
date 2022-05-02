@@ -143,6 +143,7 @@
         android:id="@+id/imageView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        app:layout_constraintDimensionRatio="w,16:23"
         app:layout_constraintEnd_toEndOf="@+id/textView4"
         app:layout_constraintStart_toStartOf="@+id/textView4"
         tools:layout_editor_absoluteY="441dp"
