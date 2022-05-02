@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!--<Button
+    <!-- ****************************buttons,textview and bias attribute **********************
+        <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,7 +28,8 @@
         app:layout_constraintStart_toStartOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/button" />-->
 
-    <!--<Button
+    <!-- ****************************buttons and guide line**********************
+        <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -61,7 +63,8 @@
         android:orientation="vertical"
         app:layout_constraintGuide_begin="158dp" />-->
 
-    <!--<TextView
+    <!-- ****************************button,textview and barriers **********************
+        <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -99,7 +102,8 @@
         tools:layout_editor_absoluteX="395dp"
         tools:layout_editor_absoluteY="93dp" />-->
 
-    <Button
+    <!--****************************buttons, warp-content, match-constraint **********************-->
+    <!--<Button
         android:id="@+id/button11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -128,8 +132,9 @@
         android:text="Button"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="85dp" />
+        tools:layout_editor_absoluteY="85dp" />-->
 
+    <!--****************************textvieww, image, aspect ratio **********************-->
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
@@ -137,16 +142,45 @@
         android:text="BISMILLAH HIRAHMA NIRAHEEM"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="320dp" />
+        tools:layout_editor_absoluteY="320dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintDimensionRatio="w,16:23"
+        app:layout_constraintDimensionRatio="w,1:1"
         app:layout_constraintEnd_toEndOf="@+id/textView4"
         app:layout_constraintStart_toStartOf="@+id/textView4"
         tools:layout_editor_absoluteY="441dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@tools:sample/avatars"
+        tools:ignore="MissingConstraints" />
+
+    <!--****************************textvieww, image, aspect ratio **********************-->
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="57dp"
+        android:text="Button"
+        app:layout_constraintEnd_toStartOf="@+id/button15"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:text="Button"
+        app:layout_constraintEnd_toStartOf="@+id/button13"
+        tools:layout_editor_absoluteY="261dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
