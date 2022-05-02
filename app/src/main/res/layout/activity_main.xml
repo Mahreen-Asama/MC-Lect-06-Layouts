@@ -6,38 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        android:text="Hello World!"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.982"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="41dp"
-        android:layout_marginBottom="25dp"
-        android:text="Button"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
-        app:layout_constraintEnd_toEndOf="parent" />
-
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="53dp"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        tools:layout_editor_absoluteY="532dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -56,8 +32,8 @@
         android:layout_height="wrap_content"
         android:text="Button"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
-        tools:layout_editor_absoluteY="88dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="88dp" />
 
     <Button
         android:id="@+id/button7"
@@ -65,8 +41,8 @@
         android:layout_height="wrap_content"
         android:text="Button"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
-        tools:layout_editor_absoluteY="147dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="136dp" />
 
     <Button
         android:id="@+id/button5"
@@ -74,15 +50,15 @@
         android:layout_height="wrap_content"
         android:text="Button"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
-        tools:layout_editor_absoluteY="40dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="40dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="42dp" />
+        app:layout_constraintGuide_begin="158dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -90,9 +66,9 @@
         android:layout_height="wrap_content"
         android:text="TextView three "
         app:barrierDirection="end"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="298dp"
-        tools:layout_editor_absoluteY="195dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="195dp" />
 
     <Button
         android:id="@+id/button8"
@@ -100,9 +76,9 @@
         android:layout_height="wrap_content"
         android:text="ABC"
         app:barrierDirection="end"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="276dp"
-        tools:layout_editor_absoluteY="99dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="99dp" />
 
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier5"
@@ -119,6 +95,7 @@
         android:layout_height="wrap_content"
         app:barrierDirection="right"
         app:constraint_referenced_ids="textView3,button8"
+        tools:layout_editor_absoluteX="395dp"
         tools:layout_editor_absoluteY="93dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
