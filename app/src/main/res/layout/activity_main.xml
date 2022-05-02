@@ -56,7 +56,8 @@
         android:layout_height="wrap_content"
         android:text="Button"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
-        tools:layout_editor_absoluteY="88dp" />
+        tools:layout_editor_absoluteY="88dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button7"
@@ -64,7 +65,8 @@
         android:layout_height="wrap_content"
         android:text="Button"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
-        tools:layout_editor_absoluteY="147dp" />
+        tools:layout_editor_absoluteY="147dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button5"
@@ -72,7 +74,8 @@
         android:layout_height="wrap_content"
         android:text="Button"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
-        tools:layout_editor_absoluteY="40dp" />
+        tools:layout_editor_absoluteY="40dp"
+        tools:ignore="MissingConstraints" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
@@ -88,7 +91,8 @@
         android:text="TextView three "
         app:barrierDirection="end"
         tools:layout_editor_absoluteX="298dp"
-        tools:layout_editor_absoluteY="195dp" />
+        tools:layout_editor_absoluteY="195dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button8"
@@ -97,7 +101,8 @@
         android:text="ABC"
         app:barrierDirection="end"
         tools:layout_editor_absoluteX="276dp"
-        tools:layout_editor_absoluteY="99dp" />
+        tools:layout_editor_absoluteY="99dp"
+        tools:ignore="MissingConstraints" />
 
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier5"
