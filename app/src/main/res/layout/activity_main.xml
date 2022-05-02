@@ -135,8 +135,6 @@
         tools:layout_editor_absoluteY="85dp" />-->
 
     <!--****************************textvieww, image, aspect ratio **********************-->
-
-    <!--****************************textvieww, image, aspect ratio **********************-->
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
@@ -159,6 +157,7 @@
         tools:layout_editor_absoluteY="505dp"
         tools:srcCompat="@tools:sample/avatars" />
 
+    <!--**************************** buttons, check visibility **********************-->
     <Button
         android:id="@+id/button12"
         android:layout_width="wrap_content"
@@ -166,7 +165,8 @@
         android:layout_marginEnd="57dp"
         android:text="Button"
         app:layout_constraintEnd_toStartOf="@+id/button15"
-        tools:layout_editor_absoluteY="261dp" />
+        tools:layout_editor_absoluteY="261dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button13"
@@ -175,7 +175,8 @@
         android:layout_marginEnd="16dp"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="261dp" />
+        tools:layout_editor_absoluteY="261dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button15"
@@ -185,6 +186,15 @@
         android:text="Button"
         android:visibility="gone"
         app:layout_constraintEnd_toStartOf="@+id/button13"
-        tools:layout_editor_absoluteY="261dp" />
+        tools:layout_editor_absoluteY="261dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/images"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="4dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
