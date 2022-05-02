@@ -135,16 +135,6 @@
         tools:layout_editor_absoluteY="85dp" />-->
 
     <!--****************************textvieww, image, aspect ratio **********************-->
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="BISMILLAH HIRAHMA NIRAHEEM"
-        android:textSize="24sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="410dp" />
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="0dp"
@@ -154,11 +144,21 @@
         app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="@+id/textView4"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="505dp"
+        tools:layout_editor_absoluteY="598dp"
         tools:srcCompat="@tools:sample/avatars" />
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BISMILLAH HIRAHMA NIRAHEEM"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="534dp" />
+
     <!--**************************** buttons, check visibility **********************-->
-    <Button
+    <!--<Button
         android:id="@+id/button12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -187,14 +187,42 @@
         android:visibility="gone"
         app:layout_constraintEnd_toStartOf="@+id/button13"
         tools:layout_editor_absoluteY="261dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints" />-->
 
+    <!--**************************** bismillah image **********************-->
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/images"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="3dp"
         tools:layout_editor_absoluteY="4dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="374dp" />
+    <!--**************************** buttons, check visibility **********************-->
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
